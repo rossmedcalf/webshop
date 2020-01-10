@@ -1,0 +1,117 @@
+
+
+
+/* :link :visited :hover, :active, :focus, */
+#logo{
+  position: sticky;
+  top: 0;
+  left: 160px;
+  /* font-size: 18px; */
+}
+head>img{
+  position: sticky;
+  top: 0;
+}
+
+body {
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:5px;
+  margin-right: 5px;
+  margin: 5px;
+  background-color: #ffcd75;
+
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 60px;
+  color: #1a1c2c;
+  text-align: center;
+  text-decoration: none;
+  }
+P {
+  font-family: sans-serif;
+}
+a:link {
+  color: #29366f;
+}
+a:visited{
+  color: #5d275d,
+  color: green;
+}
+a:active {
+  color: green;
+}
+h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+h2 {
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+}
+input:focus {
+background-color: lightblue;
+
+}
+
+}
+#intro {
+    text-indent: 10px;
+}
+
+/* a:hover {
+  background-color: #000;
+  color: #66CCFF;
+  } */
+a {
+  text-align: center;
+  }
+dd {
+    margin: auto;
+}
+ol {
+  color: red;
+  list-style-position: outside;
+  list-style: lower-alpha;
+  }
+
+.tables, td, th, tr{
+  border-color:black;
+  border-style: solid;
+  border-spacing: 10px;
+  border-width: thin;
+
+  }
+
+#upcoming {
+  
+  background: content-box radial-gradient(at bottom right,#b13e53, #ffcd75) ;
+  text-align: left;
+  }
+
+#products>caption{
+  font: caption;
+  }
+
+#additional {
+  text-decoration: underline;
+  }
+img {
+  float: right;
+  }
+
+#products {
+  caption-side: top;
+  text-decoration: underline;
+  }
+
+#products, table {
+  text-align: center;
+}
+#upcoming, ul {
+  list-style-type: square;
+  }
+
+@@media only screen and (max-width: 320px) {
+  }
