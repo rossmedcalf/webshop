@@ -53,14 +53,12 @@ input:focus {
   background-color: lightblue;
 }
 
-}
 #intro {
     text-indent: 10px;
 }
 address{
   padding: 20px;
 }
-
 
 a:hover {
   background-color: #000;
