@@ -1,2 +1,20 @@
-list-style-image, vertical-align
-page-break-before, page-break-after, orphans, widows
+/* list-style-image,
+vertical-align page-break-before,
+page-break-after,
+orphans,
+widows 
+ */
+
+@media print {
+    img {
+        width: 100px;
+        height: 100px;
+        float: top;
+    }
+    table {
+        table-layout: fixed;
+    }
+    input {
+        display: none;
+    }
+}
