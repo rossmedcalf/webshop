@@ -31,7 +31,7 @@ a:link {
   color: #29366f;
 }
 a:visited{
-  color: #5d275d,
+  color: #5d275d;
   color: green;
 }
 a:active {
@@ -50,8 +50,7 @@ p, pre {
   font-size: 25px;
 }
 input:focus {
-background-color: lightblue;
-
+  background-color: lightblue;
 }
 
 }
@@ -109,26 +108,25 @@ img {
   text-decoration: underline;
   }
 
-ol>li{
+ul>li{
   list-style-image: url("https://secure.gravatar.com/avatar/6fe5e1454dbe49ab6a05d75463374e83?s=32&d=mm&r=g");
 }
 
 #products, table {
   text-align: center;
 }
-#upcoming, ul {
-  list-style-type: square;
+#upcoming, ol {
+  list-style-type: upper-roman;
   }
 
   @media only screen and (max-width: 992px) {
     * {width:100%;}
     img {
          width: 20%;
-         position: left;
         }
   }
 /* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {...} 
+@media only screen and (max-width: 600px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {...}  */
@@ -140,4 +138,4 @@ ol>li{
 /* @media only screen and (min-width: 992px) {...}  */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */ 
+/* @media only screen and (min-width: 1200px) {...} */
