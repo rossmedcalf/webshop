@@ -1,22 +1,18 @@
 
 
 
-/* :link :visited :hover, :active, :focus, */
+
 #logo{
   position: sticky;
   top: 0;
-  left: 160px;
-  /* font-size: 18px; */
-}
-head>img{
-  position: sticky;
-  top: 0;
+  z-index: -1;
 }
 
+
 body {
-  margin-top:5px;
-  margin-bottom:5px;
-  margin-left:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
   margin-right: 5px;
   margin: 5px;
   background-color: #ffcd75;
@@ -50,6 +46,9 @@ h2 {
   font-style: normal;
   font-variant: normal;
 }
+p, pre {
+  font-size: 25px;
+}
 input:focus {
 background-color: lightblue;
 
@@ -59,11 +58,15 @@ background-color: lightblue;
 #intro {
     text-indent: 10px;
 }
+address{
+  padding: 20px;
+}
 
-/* a:hover {
+
+a:hover {
   background-color: #000;
   color: #66CCFF;
-  } */
+  }
 a {
   text-align: center;
   }
@@ -85,7 +88,7 @@ ol {
   }
 
 #upcoming {
-  
+
   background: content-box radial-gradient(at bottom right,#b13e53, #ffcd75) ;
   text-align: left;
   }
@@ -105,6 +108,10 @@ img {
   caption-side: top;
   text-decoration: underline;
   }
+
+ol>li{
+  list-style-image: url("https://secure.gravatar.com/avatar/6fe5e1454dbe49ab6a05d75463374e83?s=32&d=mm&r=g");
+}
 
 #products, table {
   text-align: center;
