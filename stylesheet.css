@@ -225,3 +225,15 @@ ol>li {
         padding: 12px 5px;
     }
 }
+
+@media (orientation: landscape) {
+    * {
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait) {
+    * {
+        flex-direction: column;
+    }
+}
