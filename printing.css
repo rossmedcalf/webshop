@@ -1,11 +1,24 @@
-/* list-style-image,
-vertical-align page-break-before,
-page-break-after,
-orphans,
-widows 
- */
-
 @media print {
+    #logo {
+        display: none;
+    }
+    nav {
+        page-break-after: always;
+    }
+    p,
+    body {
+        widows: 3;
+        orphans: 3;
+    }
+    #products {
+        page-break-after: always;
+    }
+    #additional {
+        page-break-after: always;
+    }
+    #upcoming {
+        page-break-before: always;
+    }
     img {
         width: 100px;
         height: 100px;
@@ -16,5 +29,8 @@ widows
     }
     input {
         display: none;
+    }
+    footer {
+        page-break-after: always;
     }
 }
