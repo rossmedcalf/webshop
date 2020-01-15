@@ -6,6 +6,7 @@
     <title>Smarter Shopping</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <link href="printing.css" rel="stylesheet" type="text/css" media="print">
+    <script src="myJS.js"></script>
 </head>
 
 <body>
@@ -42,16 +43,16 @@ Enjoy
     <section id="products">
         <h2>Shop NOW!</h2><br>
         <form action="https://wt.ops.labs.vu.nl/api20/a36aadb2" method="post" target="_blank">
-            <table>
+            <table id="table1">
                 <caption><strong><em>Our Products for Sale</em></strong></caption>
                 <tr>
-                    <th>Brands</th>
-                    <th>Model</th>
-                    <th>
+                    <th onclick="sortTable1(0)">Brands</th>
+                    <th onclick="sortTable1(1)">Model</th>
+                    <th onclick="sortTable1(2)">
                         <abbr title="Operating System">OS</abbr>
                     </th>
                     <th>Image</th>
-                    <th>Screen size (inch)</th>
+                    <th onclick="sortTable1(4)">Screen size (inch)</th>
                 </tr>
                 <tr>
                     <td>Apple</td>
@@ -113,6 +114,7 @@ Enjoy
                     </td>
                 </tr>
             </table>
+            <button onclick="reset()" type="button">reset</button>
         </form>
     </section>
 
@@ -122,13 +124,13 @@ Enjoy
 
     <section id="additional">
         <h2>Reach Further...</h2><br>
-        <table>
+        <table id="table2">
             <caption><strong><em>More info on our products</em></strong></caption>
             <tr>
-                <th>Model</th>
-                <th>Storage in GB</th>
-                <th>Camera Quality</th>
-                <th>Price in &#8364;</th>
+                <th onclick="sortTable2(0)">Model</th>
+                <th onclick="sortTable2(1)">Storage in GB</th>
+                <th onclick="sortTable2(2)">Camera Quality</th>
+                <th onclick="sortTable2(3)">Price in &#8364;</th>
             </tr>
             <tr>
                 <td>iPhone 11 Pro</td>
@@ -137,7 +139,7 @@ Enjoy
                 <td>905</td>
             </tr>
             <tr>
-                <td>Galaxy S10</td>
+                <td></td>Galaxy S10</td>
                 <td>128</td>
                 <td>16-megapixel</td>
                 <td>635</td>
